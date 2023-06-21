@@ -53,7 +53,8 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 REGIONS = ['Tashkent', 'Andijon', "Samarqand", "Buxoro", "Farg'ona", 'Namangan', 'Xiva', 'Jizzax']
 API_KEY = "62cd9fd62c871f7168c8205d2a3504be"
 
-
+class InfoWeather(APIView):
+    pass
 class InfooView(APIView):
     def get(self, request):
         city = request.GET.get('city')
