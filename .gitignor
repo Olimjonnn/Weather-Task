@@ -1,0 +1,6 @@
+.env
+media/
+db.sqlite
+.idea
+
+
